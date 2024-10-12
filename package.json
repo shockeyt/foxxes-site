@@ -1,6 +1,7 @@
 {
   "name": "react-foxxes",
   "version": "0.1.0",
+  "homepage": "https://shockeyt.github.io/foxxes-site",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
