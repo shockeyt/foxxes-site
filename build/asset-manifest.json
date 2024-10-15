@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/foxxes-site/static/css/main.5193057c.css",
-    "main.js": "/foxxes-site/static/js/main.64895f9d.js",
+    "main.css": "/foxxes-site/static/css/main.719b3c38.css",
+    "main.js": "/foxxes-site/static/js/main.ad77232f.js",
     "static/js/496.225079fd.chunk.js": "/foxxes-site/static/js/496.225079fd.chunk.js",
     "static/media/FoxxesPressPhotos.zip": "/foxxes-site/static/media/FoxxesPressPhotos.9879cb7ec7162edeb3a8.zip",
     "static/media/Foxxes-roof.jpg": "/foxxes-site/static/media/Foxxes-roof.f59e3dc2b20b281cc953.jpg",
@@ -31,12 +31,12 @@
     "static/media/name_logo_reversed.jpeg": "/foxxes-site/static/media/name_logo_reversed.6151374e9b2d362a3f3f.jpeg",
     "static/media/Foxxes_marquis_theater_poster.jpg": "/foxxes-site/static/media/Foxxes_marquis_theater_poster.748caf7dc582ac6d6c28.jpg",
     "index.html": "/foxxes-site/index.html",
-    "main.5193057c.css.map": "/foxxes-site/static/css/main.5193057c.css.map",
-    "main.64895f9d.js.map": "/foxxes-site/static/js/main.64895f9d.js.map",
+    "main.719b3c38.css.map": "/foxxes-site/static/css/main.719b3c38.css.map",
+    "main.ad77232f.js.map": "/foxxes-site/static/js/main.ad77232f.js.map",
     "496.225079fd.chunk.js.map": "/foxxes-site/static/js/496.225079fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5193057c.css",
-    "static/js/main.64895f9d.js"
+    "static/css/main.719b3c38.css",
+    "static/js/main.ad77232f.js"
   ]
 }

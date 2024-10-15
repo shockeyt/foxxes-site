@@ -37,9 +37,8 @@ function App() {
   }
 
   return (
-    <div className="App main-bkgd" style={imgStyle}>
+    <div className="App bkgd-img main-bkgd" style={imgStyle}>
       <div className="main">
-        <div className="bkgd-img"></div>
         <div>
           <Router>
             <Drawer view={drawer} handleDrawer={handleDrawer} />
