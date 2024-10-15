@@ -44,7 +44,7 @@ const Header = (props) => {
           <div className="col-12 position-relative">
             <NavMobile handleDrawer={props.handleDrawer} />
             <div className="d-flex justify-content-center">
-              <NavLink to="/">
+              <NavLink to="/foxxes-site/">
                 <img className="header-logo" width={200} src={nameLogo} alt="Foxxes fox logo" />
               </NavLink>
             </div>

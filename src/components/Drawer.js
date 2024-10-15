@@ -15,32 +15,35 @@ const Drawer = (props) => {
               <div className="col-12">
                 <ul>
                   <li>
-                    <NavLink className="nav-link" to="/shows" onClick={() => props.handleDrawer()}>
+                    <NavLink className="nav-link" to="/foxxes-site/shows" onClick={() => props.handleDrawer()}>
                       Shows
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="nav-link" to="/press-kit" onClick={() => props.handleDrawer()}>
+                    {/* <NavLink className="nav-link" to="/foxxes-site/press-kit" onClick={() => props.handleDrawer()}>
                       Press
-                    </NavLink>
+                    </NavLink> */}
+                    <a target="_blank" rel="noreferrer" className="nav-link" href="https://sites.google.com/view/foxxes-press-kit-sketch/home">
+                      Press Kit
+                    </a>
                   </li>
                   <li>
-                    <NavLink className="nav-link" to="/videos" onClick={() => props.handleDrawer()}>
+                    <NavLink className="nav-link" to="/foxxes-site/videos" onClick={() => props.handleDrawer()}>
                       Videos
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="nav-link" to="/photos" onClick={() => props.handleDrawer()}>
+                    <NavLink className="nav-link" to="/foxxes-site/photos" onClick={() => props.handleDrawer()}>
                       Photos
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="nav-link" to="/music" onClick={() => props.handleDrawer()}>
+                    <NavLink className="nav-link" to="/foxxes-site/music" onClick={() => props.handleDrawer()}>
                       Music
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="nav-link" to="/news" onClick={() => props.handleDrawer()}>
+                    <NavLink className="nav-link" to="/foxxes-site/news" onClick={() => props.handleDrawer()}>
                       News
                     </NavLink>
                   </li>

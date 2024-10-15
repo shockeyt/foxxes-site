@@ -8,7 +8,7 @@ const Nav = () => {
           <div className="col-12">
             <ul>
               <li>
-                <NavLink className="nav-link" to="/shows">
+                <NavLink className="nav-link" to="/foxxes-site/shows">
                   Shows
                 </NavLink>
               </li>
@@ -21,22 +21,22 @@ const Nav = () => {
                 </a>
               </li>
               <li className="middle-left">
-                <NavLink className="nav-link" to="/videos">
+                <NavLink className="nav-link" to="/foxxes-site/videos">
                   Videos
                 </NavLink>
               </li>
               <li className="middle-right">
-                <NavLink className="nav-link" to="/photos">
+                <NavLink className="nav-link" to="/foxxes-site/photos">
                   Photos
                 </NavLink>
               </li>
               <li>
-                <NavLink className="nav-link" to="/music">
+                <NavLink className="nav-link" to="/foxxes-site/music">
                   Music
                 </NavLink>
               </li>
               <li>
-                <NavLink className="nav-link" to="/news">
+                <NavLink className="nav-link" to="/foxxes-site/news">
                   News
                 </NavLink>
               </li>

@@ -25,7 +25,8 @@ const imgStyle = {
   backgroundSize: 'cover',
   minHeight: '100vh',
   maxWidth: '1600px',
-  margin: 'auto'
+  margin: 'auto',
+  backgroundAttachment: 'fixed'
 };
 
 function App() {
@@ -36,24 +37,25 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="App main-bkgd" style={imgStyle}>
       <div className="main">
-        <div className="main-bkgd bkgd-img" style={imgStyle}>
+        <div className="bkgd-img"></div>
+        <div>
           <Router>
             <Drawer view={drawer} handleDrawer={handleDrawer} />
             <Header handleDrawer={handleDrawer} />
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/shows" element={<Shows />} />
-              <Route path="/press-kit" element={<Press />} />
-              <Route path="/videos" element={<Videos />} />
-              <Route path="/photos" element={<Photos />} />
-              <Route path="/music" element={<Music />} />
-              <Route path="/news" element={<News />} />
+              <Route path="/foxxes-site/" element={<Home />} />
+              <Route path="/foxxes-site/shows" element={<Shows />} />
+              <Route path="/foxxes-site/press-kit" element={<Press />} />
+              <Route path="/foxxes-site/videos" element={<Videos />} />
+              <Route path="/foxxes-site/photos" element={<Photos />} />
+              <Route path="/foxxes-site/music" element={<Music />} />
+              <Route path="/foxxes-site/news" element={<News />} />
             </Routes>
           </Router>
         </div>
-        <FeaturedVideo />
+        {/* <FeaturedVideo /> */}
         <Footer />
       </div>
     </div>
